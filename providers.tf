@@ -5,16 +5,16 @@ terraform {
       version = "5.69.0"
     }
   }
-  cloud { 
-    
-    organization = "Learningthoughts" 
+  cloud {
 
-    workspaces { 
-      name = "sample" 
-    } 
-  } 
+    organization = "AchieveGoals"
+
+    workspaces {
+      name = "terraform-aws-securitygroup"
+    }
+  }
 }
-  #added comments
+#added comments
 provider "aws" {
   # Configuration options
   region = "ap-south-1"
